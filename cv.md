@@ -1,7 +1,6 @@
 ---
 layout: page
 description: "My CV."
-title: CV
 tags: [Phillip R. Polefrone, Phil Polefrone, CV]
 permalink: /cv/
 image:
