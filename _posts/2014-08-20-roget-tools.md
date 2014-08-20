@@ -35,7 +35,7 @@ With this integration in mind, the library opens up several methods of automated
 
 ###Installation
 
-As yet no standard Python installation is available. Instead, [download roget-tools-master.zip](https://github.com/prpole/roget-tools/archive/master.zip) and copy the contents into your working directory.
+As yet no standard Python installation is available. Instead, [download](https://github.com/prpole/roget-tools/archive/master.zip) roget-tools-master.zip and copy the contents into your working directory.
 
 
 ###Use
