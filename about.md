@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About
+title: About Phillip
 tagline: About Phillip R. Polefrone
 tags: [about, Phillip R. Polefrone, Phil Polefrone, Phillip Polefrone]
 modified: 7-31-2014
@@ -10,8 +10,4 @@ image:
   feature: texture-feature-06.jpg
 ---
 
-Here comes the hot-stepper[^1]; I'm the lyrical gangster[^2]
-
-[^1]: muuuurderer
-
-[^2]: muuurderer
+I am a PhD Candidate in Columbia University's Department of English and Comparative Literature. My interests include the digital humanities, 20th-century American fiction, science fiction, ecocriticism, and socialist writing. 
