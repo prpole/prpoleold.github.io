@@ -165,9 +165,9 @@ This is the first iteration of Roget Tools, and many applications remain to be d
 
 ##References
 
-Klingenstein, Sara, Tim Hitchcock, and Simon DeDeo. “The Civilizing Process in London’s Old Bailey.” *Proceedings of the National Academy of Sciences* 111.26 \(2014\): 9419–24. www.pnas.org. Web. 20 Aug. 2014. [http://www.pnas.org/content/111/26/9419.abstract](http://www.pnas.org/content/111/26/9419.abstract)
+- Klingenstein, Sara, Tim Hitchcock, and Simon DeDeo. “The Civilizing Process in London’s Old Bailey.” *Proceedings of the National Academy of Sciences* 111.26 \(2014\): 9419–24. www.pnas.org. Web. 20 Aug. 2014. [http://www.pnas.org/content/111/26/9419.abstract](http://www.pnas.org/content/111/26/9419.abstract)
 
-Jarmasz, Mario, and Stan Szpakowicz. “Roget’s Thesaurus and Semantic Similarity.” arXiv:1204.0245 \[cs\]\(2012\): n. pag. arXiv.org. Web. 20 Aug. 2014. [http://arxiv.org/abs/1204.0245](http://arxiv.org/abs/1204.0245)
+- Jarmasz, Mario, and Stan Szpakowicz. “Roget’s Thesaurus and Semantic Similarity.” arXiv:1204.0245 \[cs\]\(2012\): n. pag. arXiv.org. Web. 20 Aug. 2014. [http://arxiv.org/abs/1204.0245](http://arxiv.org/abs/1204.0245)
 
 
 
