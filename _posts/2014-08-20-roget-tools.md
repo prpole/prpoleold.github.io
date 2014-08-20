@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Roget Tools
+title: Roget Tools for Textual Analysis
 description: "Roget Tools for Python"
 modified: 2014-08-20
 tags: [Roget, thesaurus, Roget's thesaurus, python, NLP, natural language processing]
@@ -20,7 +20,9 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-#Roget Tools for Textual Analysis
+##Download
+
+Roget Tools can be downloaded [here](https://github.com/prpole/roget-tools/archive/master.zip).
 
 ##Overview
 
