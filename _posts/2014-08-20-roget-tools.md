@@ -51,7 +51,7 @@ and functions via
 
 Exportability to NetworkX may be desirable for some applications; to eliminate dependencies, however, Roget Tools does not include a NetworkX export function. To do so, use the following code as a model:
 <pre><code>
-	import networkx as nx
+import networkx as nx
 import roget
 r = roget.Roget()
 X = nx.DiGraph()
