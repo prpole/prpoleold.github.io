@@ -8,6 +8,6 @@ image:
   feature: texture-feature-06.jpg
 ---
 
-This page lists all of my completed and in-progress projects:
+This page lists completed projects and works-in-progress:
 
-* [Roget Tools for Python](https://github.com/prpole/roget-tools)
+* [Roget Tools for Textual Analysis](http://prpole.github.io/roget-tools/)
