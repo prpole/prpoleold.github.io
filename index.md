@@ -3,8 +3,8 @@ layout: home
 description: "Phillip R. Polefrone's professional blog."
 tags: [Jekyll, theme, responsive, blog, template]
 image:
-  feature: texture-feature-08.jpg
-  credit: from John Bellamy Foster's "Marx's Ecology"
+  feature: texture-feature-06.jpg
+  credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 ---
 
 #Phillip R. Polefrone
