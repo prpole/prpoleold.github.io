@@ -9,6 +9,4 @@ image:
 
 #Welcome
 
-Welcome, welcome. If I had a hammer, I'd hammer in the morning; I'd hammer in the evening. All over this land! I'd hammer out DANGER! Et cetera and so forth.
-
-guano imperialism
+I'm using this site to host my DH projects and other professional resources, such as my CV and publications. See below for updates and information about works in progress. My CV can be found on the "CV" tag above, and projects are hosted on the "Projects" tab.
