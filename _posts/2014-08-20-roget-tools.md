@@ -20,6 +20,14 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
+##Recent Updates
+
+Added two new methods:
+
+* **self.freq_of_all_cats(text)** - given a text, return a dictionary of all Roget categories with counts *including zero counts*. 
+
+* **self.cat_array_by_file(folder,csv=False)** - Enables use of the Pandas library and CSV export. Given 'directory\_name/' in working directory that contains (or path to folder from working directory), return Pandas array of Roget category frequencies for each file. X-axis: filenames; Y-axis: Roget categories. If csv=True, results will be saved as a .csv file in the folder specified.
+
 ##Download
 
 Roget Tools can be downloaded [here](https://github.com/prpole/roget-tools/archive/master.zip).
@@ -158,6 +166,11 @@ These methods convert hierarchical positions into distance relations, which in c
 
 * **self.clustering_node(wordlist,verbose=False,N=0)** - given a list of words, calculate aggregate and average distance from words' base categories to every node in hierarchy, then return the node code, node, aggregate distance, and average distance for every node with the minimum aggregate distance; if N>0, return the same for N nearest nodes; output format list of tuples: [(node code, node, aggregate distance, average distance),...]
 
+###Direct Text Analysis
+
+* **self.freq_of_all_cats(text)** - given a text, return a dictionary of all Roget categories with counts *including zero counts*. 
+
+* **self.cat_array_by_file(folder,csv=False)** - Enables use of the Pandas library and CSV export. Given 'directory\_name/' in working directory that contains (or path to folder from working directory), return Pandas array of Roget category frequencies for each file. X-axis: filenames; Y-axis: Roget categories. If csv=True, results will be saved as a .csv file in the folder specified. 
 
 ##Future Development
 
