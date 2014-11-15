@@ -21,7 +21,7 @@
 	width: auto;
 	height: 100%;
 	float: left;
-	font-size: .3em;
+	font-size: .6em;
 	display: inline;
 }
 
@@ -49,19 +49,19 @@
 
 .note-top-1 {
 	display: inline;
-	font-size: .3em;
+	font-size: .6em;
 }
 
 .maintext {
 	display: inline;
-	font-size: .6em;
+	font-size: 1em;
 }
 
 .notes-right {
 	width: auto;
 	height: 100%;
 	float: left;
-	font-size: .3em;
+	font-size: .6em;
 	display: inline;
 }
 
@@ -71,6 +71,6 @@
 }
 
 .center-column h1 {
-	font-size: 1em;
+	font-size: 1.3em;
 	text-align: center;
 }
