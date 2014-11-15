@@ -1,6 +1,6 @@
 .left-panel {
 	display: block;
-	width: 15%;
+	width: 10%;
 	height: 100%;
 	float: left;
 }
@@ -54,7 +54,7 @@
 
 .maintext {
 	display: inline;
-	font-size: 1em;
+	font-size: .8em;
 }
 
 .notes-right {
@@ -71,6 +71,6 @@
 }
 
 .center-column h1 {
-	font-size: 1.3em;
+	font-size: 1em;
 	text-align: center;
 }
