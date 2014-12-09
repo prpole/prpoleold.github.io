@@ -5,12 +5,20 @@ description: "An essay on Karen Tei Yamashita's *Through the Arc of the Rainfore
 modified: 2014-12-09
 tags: [Karen Tei Yamashita, Through the Arc of the Rainforest, thing theory, materialism, globalism]
 comments: false
-toc: true
 image:
   feature: texture-feature-06.jpg
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 ---
 
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>Contents</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section><!-- /#table-of-contents -->
 
 Before beginning, I'd like to contextualize exactly what this presentation is in relation to the paper that will result from it, and what I hope to achieve by presenting it. The project I'm working on essentially has two major components in terms of the work that will go into it. I want to talk about the way that circulation of materials and commodities, and more specifically the scale and type of circulation, affects the depiction of material in general in *Through the Arc of the Rain Forest*. This requires the kind of work that usually goes into literary analysis: a fair amount of focused close-reading to trace the way that material depictions change over the course of the novel combined with engagement with some of the theorists we've read over the course of the semester, including Bill Brown and Zygmunt Bauman. Alongside this work, though, I want to also do another kind of work, which is what I'll be presenting today: mapping. As I read Yamashita's novel the first time, and especially as I reread it to flag passages, character movements, and quotations, I realized that it is almost impossible to make sense of it without keeping a mental map of which characters were where, and which of the other characters they're with. The reading experience of the novel is, I think, such a strange one in part because of the difficulty of keeping this map straight. But on a higher level, the work the novel is doing, and the sophisticated relation I see it making between globalization and materiality, relies on this sense of increasing scale and multiple, coexisting temporalities of movement. Therefore, in both this presentation and the paper, much of the argument will be run through a visual, spatial representation of the novel as a drama of network expansion, both for communicative reasons---explaining the novel to someone who'd never read it would take longer than visually presenting the novel's use of space---and for analytic reasons.
 
