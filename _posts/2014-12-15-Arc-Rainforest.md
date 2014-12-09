@@ -36,9 +36,9 @@ This is not a novel about things on their own, though, and the circulation of th
 
 From the opening paragraph, the boundary between thing and person is destabilized through the many object-appendages that come close to defining the characters. Kazumasa has a ball floating in front of his forehead that is made out of a plastic-like material, something similar to (or at least that reacts to) the stuff of the Matacão. This ball has fallen from the sky and has attached itself to him permanently, so permanently that, by implication, the only way to take it from him is by killing him. His object-appendage provides Kazumasa a job when it starts to be attracted to weaknesses in railroad tracks, and its peculiar nature it also puts *Kazumasa* in motion. Though the beginning of his life is narrowly confined to a scale consistent with the powers of his unaugmented body, the moment his abilities are extended by the object that is augmenting him---the moment, we might say, in which the ball becomes a prosthetic---the scale of his influence expands.
 
-![Kazumasa's initial network range.](1NetworkJapan0.jpeg) 
+![Kazumasa's initial network range.](/images/1NetworkJapan0.jpeg) 
 
-![Kazumasa's network range after prosthesis.](1NetworkJapan1.jpeg)
+![Kazumasa's network range after prosthesis.](/images/1NetworkJapan1.jpeg)
 
 Is Kazumasa put into motion or put into circulation? Now is a moment for some definitions. Circulation in the true sense relies on exchange, and more specifically the exchange of commodities. When I say commodities I mean an object that is a product of labor, that is both used and exchanged, and which therefore has both use-value and exchange-value (in Marx's sense---I'll discuss this more shortly). Kazumasa's ball is not a product of labor, and therefore the *ball* is not a commodity in itself. But something else is happening here in terms of the changing materiality of Kazumasa's self as a result of his prosthesis. The ball is his only way of performing the labor by which he supports himself, namely, riding around detecting weaknesses in train tracks. In a sense unique to the novel, Kazumasa's labor power is externalized, objectified in the ball. Though the ball may not be a commodity in itself, it is in part a way of representing Kazumasa's commodified labor power. 
 
