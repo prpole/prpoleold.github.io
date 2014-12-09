@@ -43,6 +43,9 @@
       {% endif %}
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
+      {% if page.toc %}
+        {% include _contents.html %}
+      {% endif %}
       {{ content }}
       <hr />
       <footer role="contentinfo">

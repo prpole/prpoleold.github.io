@@ -5,6 +5,7 @@ description: "An essay on Karen Tei Yamashita's *Through the Arc of the Rainfore
 modified: 2014-12-09
 tags: [Karen Tei Yamashita, Through the Arc of the Rainforest, thing theory, materialism, globalism]
 comments: false
+toc: true
 image:
   feature: texture-feature-06.jpg
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
