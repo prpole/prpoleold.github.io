@@ -81,3 +81,7 @@ p img {
 	padding: 1em;
 	max-width: 90%
 }
+
+article {
+	text-align: justify;
+}
