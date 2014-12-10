@@ -76,12 +76,8 @@
 }
 
 p img {
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 2.5%;
+	margin-right: 7.5%;
 	padding: 1em;
 	max-width: 90%
-}
-
-article {
-	text-align: justify;
 }
