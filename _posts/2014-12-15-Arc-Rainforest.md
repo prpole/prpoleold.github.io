@@ -39,9 +39,9 @@ Karen Tei Yamashita's *Through the Arc of the Rainforest* can be read as a surre
 This is not a novel about things on their own, though, and the circulation of things can be obscured by the circulation of *people*, which predictably garners more focus. In fact, the circulations of things and people are more difficult to keep separate than would be the case in a less imaginative novel. The relationship between the two can be defined pretty much as follows: interaction of objects and people in a non-market sense often takes the form of something like prosthesis, and the prosthetic objects mediate the way people interact with markets, global circulation networks, and the power that comes with both. 
 
 From the opening paragraph, the boundary between thing and person is destabilized through the many object-appendages that come close to defining each of the characters. As I said, for the purposes of this presentation, I'll be focusing on the example of Kazumasa and the ball floating in front of his forehead. A great deal of emphasis is placed, from the beginning, on the ball's material: it is made out of a plastic-like material, something similar to (or at least that reacts to) the stuff of the Matacão. Almost as much attention is given to how much it comes to define Kazumasa. Although it's fallen from the sky, it's attached itself to him permanently, so permanently that, by implication, the only way to take it from him is by killing him. It is not until Kazumasa grows up---enters the labor force, we might say---that his object-appendage begins to mediate his movement and economic relationships. When he does enter the labor force, his ball provides him a job specifically *because of its material peculiarity*. And because it starts to be attracted to weaknesses in railroad tracks, its peculiar nature also puts *Kazumasa* in motion. The effects of this are visible in the expanding size of his sphere of influence. Though the beginning of his life is narrowly confined to a scale consistent with the powers of his unaugmented body, 
-**Slide 2: 1NetworkJapan0**
+[![Kazumasa initial network](images/1NetworkJapan0.jpeg)](http://prpole.github.io/images/1NetworkJapan0.jpeg)
 the moment his abilities are extended by the object that is augmenting him---the moment, we might say, in which the ball becomes a prosthetic---the extent of his influence expands. 
-**Slide 3: 1NetworkJapan1**
+[![Kazumasa's network expands](images/1NetworkJapan1.jpeg)](http://prpole.github.io/images/1NetworkJapan1.jpeg)
 The geographic boundaries of his movement are carefully delineated to emphasize this increase: it is made very clear that he is traveling from Hokkaido, the northernmost portion of Japan, to Nagasaki, which is located in the south. 
 
 But is Kazumasa put into motion or put into circulation? Now is a moment for some definitions. Circulation in the sense I'm using it here relies on exchange, and more specifically the exchange of commodities. And of course when I say commodity I mean specifically an object that is a product of labor, that is both used and exchanged. Kazumasa's ball is not a product of labor, and therefore the *ball* is not a commodity in itself. But something else is happening here in terms of the changing materiality of Kazumasa's self as a result of his prosthesis. The ball is his only way of performing the labor by which he supports himself, because it is the part of him that responds to the track weaknesses. In a sense unique to the novel, then, Kazumasa's labor power is externalized---objectified in the ball. Though the ball may not be a commodity in itself, it is in part a way of physicalizing Kazumasa's commodified labor power. 
@@ -49,9 +49,9 @@ But is Kazumasa put into motion or put into circulation? Now is a moment for som
 I should pause to make clear that I'm not suggesting a reductive, allegorical reading of the ball as only (and entirely) commodified labor. (Lest we forget, the ball is also the narrator of the novel.) I'm just arguing that it acts as such in the way it mediates Kazumasa's economic relations. In other contexts, the ball is also something like an essence of his identity---at certain points he is just "The Japanese with the ball," it speaks for him more than he speaks for himself, and so forth. So although it's important not to overstate this reading, the place of the ball in between Kazumasa and the market is clear.
 
 Understanding Kazumasa's ball as his labor power externalized can also add some useful context to the conditions of his increasing obsolescence as a railroad maintainer, especially as this obsolescence relates to the size of his sphere of influence. It's significant tat, when Kazumasa eventually loses his position with the railroad company, it is because a new, bigger company has taken over that *replicates his ball exactly* with a *mechanical device* (**cite**). With the ball understood as externalized labor power, the one-for-one replacement of human labor by its mechanical equivalent is imagined as the mechanical reproduction of an object. The result of this replacement is a decrease in the geographical extent of Kazumasa's influence. He is fired, which results a cut in pay and a major curtailment of the distance he travels per day: "**quote**" (**cite**). 
-**Slide 4: 1NetworkJapan2**
+[![Kazumasa's network decreases](images/1NetworkJapan2.jpeg)](http://prpole.github.io/images/1NetworkJapan2.jpeg)
 In the first place, a relationship is established here that persists throughout: geographic influence correlates with economic power, as seen here in that fact that a diminution of distance covered leads to a wage cut. But the mechanization of Kazumasa's ball has a further-reaching effect on Kazumasa himself. Just as his ball enters a larger system of essentially mechanical objects, Kazumasa himself becomes, to some extent, mechanical. His circulation in the system has a strict, regulated period, and the task has all the mindless repetition so characteristic of work within an extensive division of labor. A similar diminution of Kazumasa as an individual occurs later, when the ball has again been mass-produced, this time as a fashion accessory: "**quote**" (**cite**). In both cases, the characteristics of the ball's circulation in a larger system of objects determines the character of Kazumasa's own interaction with larger systems, whether those systems are economic, cultural, or social. It is no surprise that Kazumasa's diminishing status causes him to flee Japan for another locale: São Paulo. 
-**Slide 5: 1MovementBrazil0**
+[![Kazumasa goes to Sao Paulo](images/1MovementBrazil0.jpeg)](http://prpole.github.io/images/1MovementBrazil0.jpeg)
 
 #Still to Come
 
@@ -66,59 +66,45 @@ I'll get to the maps shortly, but as a final bit of context, it's worth drawing 
 As a more specific solicitation for feedback, now that I've made these things, I'm trying to figure out how useful they are. For the time being, I'll just go through them with a few thoughts on each. So when we get to feedback later I'd love to hear if they helped people, or if not, and how they might be focused or improved.
 
 [![Batista and Tania Aparecida Djapan's Pigeon Network](images/1PigeonNetworkSP0.jpeg)](http://prpole.github.io/images/1PigeonNetworkSP0.jpeg)
-
 These are the city limits of São Paulo, with all the public transportation lines marked in black. In the center is the beginning of the pigeon network, starting with a single pigeon that is injured on the sidewalk. It's important to note that Batista's life changes dramatically due to his fixation on this first pigeon: his interests and routines are all mediated through it from the beginning.
 
 [![A Single Pigeon Increases the Scale](images/1PigeonNetworkSP1.jpeg)](http://prpole.github.io/images/1PigeonNetworkSP1.jpeg)
-
 When Tania tries to get rid of the pigeon, she only inadvertently increases its range and kicks off the expansion of the pigeon network. **read quote** At this point the combination of the pigeons status as a kind of appendage becomes also a type of circulation in that it establishes a circuit.
 
 [![Pigeon Network Exceeds São Paulo](images/1PigeonNetworkSP2.jpeg)](http://prpole.github.io/images/1PigeonNetworkSP2.jpeg)
-
 The pigeon goes further. The increase in network scale interestingly coincides with the training of a creature, linking up the physical capabilities of the animal with the extension of Batista's influence.
 
 [![Chico Paco's first pilgrimage](images/1MovementBrazil1.jpeg)](http://prpole.github.io/images/1MovementBrazil1.jpeg)
-
 About the same time, Chico Paco begins the pilgrimage to establish an altar to St. George on the Matacão. This is an example of individual movement rather than a circuit, until...
 
 [![Trip Becomes Circuit](images/2Brazil0.jpeg)](http://prpole.github.io/images/2Brazil0.jpeg)
-
 ...the trip becomes a circuit in Part II. This is actually a mistake; Chico Paco's next trip is to São Paulo. Nevertheless, the beginning of the pattern of pilgrimages and returns establishes a kind of one-man circulation of prayer. This is especially so because his individual circulation is motivated by a larger network of communication and requests.
 
 [![Pigeon Networks cover a whole region, get funding](images/2PigeonNet1.jpeg)](http://prpole.github.io/images/2PigeonNet1.jpeg)
-
 **read quote** The funding here is important, as is the "test flight": this is not only no longer a one-pigeon operation, it is no longer a two-person operation. The increase in scale is now in two dimensions, between range and number of agents. Its increase will only, of course, continue. Moving into Part II involves an change in type as well as extent for both Chico Paco and Batista & Tania.
 
 [![All Brazil Networks in Part II](images/2Brazil1_all.jpeg)](http://prpole.github.io/images/2Brazil1_all.jpeg)
-
 Here are all the networks as of part two, plus J.B. Tweep's entrance. Note that the setting has stopped being individual, atomized towns, and has started being regions of Brazil. In Part II, we have moved from the local to the regional. 
 
 [![Global networks, part i - part iii: before](images/3Networks0.jpeg)](http://prpole.github.io/images/3Networks0.jpeg)
-
 Moving from Part II: The Developing World to Part III: More Development is a matter of moving from the regional to the national and, in the case of GGG, the international. Here is how things look when they begin, with GGG bound to productless circulation and containment and Batista and Tania limited to a single injured pigeon. But here... **slide**
 
 [![Global networks...: after](images/3Networks1.jpeg)](http://prpole.github.io/images/3Networks1.jpeg)
-
 Is what happens when other forces come into play. For GGG, it is the subsumption of Mané Pena's feather business and their development into commodities on top of the massive flow of capital to transform the Matacão into a base of operations. **read quote  on right**. The Pigeon network now covers a majority of the country, and on top of that has enough pigeons to necessitate a truck. **read quote on left** It has entered the public consciousness.
 
 [![Pigeon network and pilgrim network combine](images/4Networks0.jpeg)](http://prpole.github.io/images/4Networks0.jpeg)
-
 The pigeon network is now also combined with Chico Paco's emerging votive circuit, as Batista is accompanying Chico Paco in a truck. With Part IV: Loss of Innocence, networks start combining or being centralized into larger units, multiplying the scale of all of them.
 
 [![Networks go international](images/4Networks1.jpeg)](http://prpole.github.io/images/4Networks1.jpeg)
-
 But above all, the Loss of Innocence is characterized by the transgression of or extension to the limits of national borders. The Pigeon network surpasses GGG's network: **read quote**. Chico Paco's one-person pious mission is expanded into a many-person votive network of constant motion, with volunteers making pilgrimages all over the country. **read quote**
 
 [![centralization](images/5Networks1_kazumasa-ggg-feather.jpeg)](http://prpole.github.io/images/5Networks1_kazumasa-ggg-feather.jpeg)
-
 The continued loss of innocence is mainly defined by the centralization as well as the corruption of Kazumasa, arguably a kind of ethical paragon in terms of his pursuit of real happiness and his disdain for the kind of circulation he nevertheless finds himself within. His loss of innocence happens when he turns his ball to the search of profit and extraction of Matacao: **read quote, left then right**
 
 [![GGG's global aspirations](images/5Networks2_kazumasa-ggg-feather.jpeg)](http://prpole.github.io/images/5Networks2_kazumasa-ggg-feather.jpeg)
-
 Such minor internationalism is far short of any aspirations of globalism, however. GGG's own aspirations encompass the entire world: **read quote**
 
 [![Pigeon network crosses the Atlantic](images/5NetworksWorld1_all.jpeg)](http://prpole.github.io/images/5NetworksWorld1_all.jpeg)
-
 It is the Pigeon network that ends up coming closest to achieving this globality in Part V., though. **read quotes on right** Note that this coincides with the dismantling of the relationship between Batista and Tania, which from the beginning has also been a marker of innocence and lauded. Additionally, note that the global is presented here as something that exceeds comprehension. What is unable to be considered is here presented as undesirable, and globalism is one such thing. At the same time, Chico Paco's pilgrim network has been largely dematerialized further and turned into a radio show. This coincides with a distancing from his friend Gilberto, who has been marker of authentic relationships, and was the origin of Chico Paco's pilgrimages and holiness in the first place.
 
 
