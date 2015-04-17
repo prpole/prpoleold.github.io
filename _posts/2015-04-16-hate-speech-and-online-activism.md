@@ -1,14 +1,16 @@
 ---
 layout: post
 title: Hate Speech and Online Activism
-description: "Semantic, historical, and legal analysis of online hate speech."
+description: "Semantic, historical, and legal analysis of online hate speech"
 modified: 2015-04-16
-tags: [semantic analysis,#GamerGate,activism]
+tags: [semantic analysis, GamerGate, activism]
 comments: false
 image:
   feature: texture-feature-06.jpg
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 ---
+
+#Summary
 
 Since the beginning of #GamerGate in 2014, threats to online feminist activists and their allies have been routine, as have bomb threats and public shaming on Twitter and beyond. Legislators are scrambling to respond: in March 2015, to take a recent example, Representative Katherine Clark called to strengthen the parts of the Violence Against Women Act that protect victims of online stalking and harassment. Measures such as these are obviously necessary, but several fundamental questions remain unasked about the language under consideration: How does online hate speech differ from previous forms of hate speech? Will the legal structures that define threatening and criminally harassing language as civil rights violations be able to keep up with the linguistic petri dish of social media? How closely do these definitions describe the type of harassment that is actually occurring, and are there any ways in which it is deficient? 
 
