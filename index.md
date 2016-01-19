@@ -7,7 +7,6 @@ image:
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 ---
 
-#Phillip R. Polefrone
 
 I'm Phil Polefrone, a PhD Candidate in Columbia University's Department of
 English and Comparative Literature. I work in three broad fields: 20th-century
