@@ -11,4 +11,4 @@ image:
 
 [The Art of Data Visualization: Location Extraction and Georeferencing with
     Python and
-    GeoNames](https://prpole.github.io/talks/location-extraction-georeferencing.html)
+    GeoNames](https://prpole.github.io/location-extraction-georeferencing.html)
