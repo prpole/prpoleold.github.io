@@ -12,11 +12,7 @@ image:
 
 #Location Extraction and Georeferencing with Python and GeoNames
 
-```
-test?
-
-python
-
+```python
 from nltk import tokenize
 from nltk.tag.stanford import StanfordNERTagger
 import json
