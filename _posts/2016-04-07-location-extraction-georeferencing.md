@@ -10,7 +10,7 @@ image:
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 ---
 
-#Location Extraction and Georeferencing with Python and GeoNames
+# Location Extraction and Georeferencing with Python and GeoNames
 
 ```python
 from nltk import tokenize
