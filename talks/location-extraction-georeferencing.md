@@ -12,7 +12,9 @@ image:
 
 #Location Extraction and Georeferencing with Python and GeoNames
 
-```
+test?
+
+```python
 from nltk import tokenize
 from nltk.tag.stanford import StanfordNERTagger
 import json
@@ -144,7 +146,7 @@ def csv_writeout(all_locations,fname):
             cwrite.writerow(row)
 ```
 
-
+?
 
 
 
