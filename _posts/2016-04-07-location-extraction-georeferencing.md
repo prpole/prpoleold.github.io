@@ -12,6 +12,7 @@ image:
 
 #Location Extraction and Georeferencing with Python and GeoNames
 
+```
 test?
 
 python
@@ -146,7 +147,4 @@ def csv_writeout(all_locations,fname):
         for row in all_locations:
             cwrite.writerow(row)
 
-?
-
-
-
+```
