@@ -45,6 +45,8 @@ links:
   #  url: /theme-setup/
   - title: CV
     url: /cv/
+  - title: Talks
+    url: /talks/
   #- title: Made Mistakes
   #  url: http://mademistakes.com
   #  external: true
