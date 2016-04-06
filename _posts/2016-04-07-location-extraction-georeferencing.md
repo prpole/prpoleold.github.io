@@ -10,7 +10,15 @@ image:
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 ---
 
-# Location Extraction and Georeferencing with Python and GeoNames
+### Dependencies: Download Before Workshop Begins
+
+- Download [zip file with completed code](https://prpole.github.io/code/Polefrone_Location_Demo_Columbia.zip).
+- [Install NLTK for Python](http://www.nltk.org/install.html).
+- [Register for MapBox Account](https://www.mapbox.com/).
+- [Register for GeoNames API credentials](http://www.geonames.org/login).
+- Recommended: Install or choose an IDE to follow along (I use [iPython](https://ipython.org/).
+
+### The Code
 
 ```python
 from nltk import tokenize
