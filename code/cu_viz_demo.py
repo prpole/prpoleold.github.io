@@ -6,7 +6,7 @@ import csv
 import re
 from time import sleep
 from urllib2 import Request, urlopen, URLError
-import pickle
+import cPickle as pickle
 
 st = StanfordNERTagger('/path/to/file/stanford-ner-2015-04-20/classifiers/english.all.3class.distsim.crf.ser.gz','/path/to/file/stanford-ner-2015-04-20/stanford-ner.jar')
 
@@ -81,6 +81,7 @@ def geonames_query(location,east='-74.803504',west='-75.413986',north='40.186939
     #use try/except to catch timeout errors
     try:
         ##combine all variables into query string
+        ##line commented out includes a query with bounding-box parameters around Philadelphia
         #query_string = baseurl+'username=%s&name_equals=%s&north=%s&south=%s&east=%s&west=%s&orderby=population' % (username,location,north,south,east,west)
         query_string = baseurl+'username=%s&name_equals=%s&orderby=relevance' % (username,location)
         ##run query, read output, and parse json response

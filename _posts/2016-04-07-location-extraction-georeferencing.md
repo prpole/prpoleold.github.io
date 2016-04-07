@@ -20,6 +20,12 @@ image:
 - Recommended: Install or choose an IDE to follow along (I use [iPython](https://ipython.org/)).
 - Example text: Theodore Dreiser's [The Finanancier](https://prpole.github.io/resources/dreiser_financier.txt). (Source: Project Gutenberg)
 
+### Fallback Output Downloads
+
+- [Tagged entities from *The Financier*](https://prpole.github.io/resources/cu_tagged.p). Extract in Python using cPickle.
+- [Coordinates for all unique locations (GeoNames output).](https://prpole.github.io/resources/cu_viz_coordinates.p). Extract in Python using cPickle.
+- [CSV output of all locations](https://prpole.github.io/resources/cu_viz_financier_locations.csv)
+
 ### The Code
 
 ```python
