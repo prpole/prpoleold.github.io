@@ -14,6 +14,7 @@ image:
 
 - Download [zip file with completed code](https://prpole.github.io/code/Polefrone_Location_Demo_Columbia.zip).
 - [Install NLTK for Python](http://www.nltk.org/install.html).
+- [Download Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/stanford-ner-2015-12-09.zip).
 - [Register for MapBox Account](https://www.mapbox.com/).
 - [Register for GeoNames API credentials](http://www.geonames.org/login).
 - Recommended: Install or choose an IDE to follow along (I use [iPython](https://ipython.org/)).
