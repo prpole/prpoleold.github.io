@@ -17,6 +17,7 @@ image:
 - [Register for MapBox Account](https://www.mapbox.com/).
 - [Register for GeoNames API credentials](http://www.geonames.org/login).
 - Recommended: Install or choose an IDE to follow along (I use [iPython](https://ipython.org/).
+- Example text: Theodore Dreiser's [The Finanancier](https://prpole.github.io/resources/dreiser_financier.txt). (Source: Project Gutenberg)
 
 ### The Code
 
