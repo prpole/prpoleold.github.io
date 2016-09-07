@@ -14,3 +14,4 @@ I am hosting these files for pedagogical purposes. No intent has been made to
 defraud the copyright holder. 
 
 - [Abbey, "Polemic"](https://prpole.github.io/files/abbey_polemic.pdf)
+- [Kincaid, "To Name is to Possess"](https://prpole/github.io/files/kincaid_name.pdf)
