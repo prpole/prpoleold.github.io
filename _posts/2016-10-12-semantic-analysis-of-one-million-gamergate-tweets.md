@@ -1,26 +1,13 @@
 ---
 layout: post
-title: Semantic Analysis of One Million #GamerGate Tweets Using Semantic Category Correlations
+title: Semantic Analysis of One Million &#35;GamerGate Tweets Using Semantic Category Correlations
 author: 
 - name: Phillip R. Polefrone
   affiliation: Columbia University, Department of English and Comparative Literature
   email: prpolefrone@columbia.edu
 date: August 2016
 abstract: | 
-    This paper develops a methodology for describing the contents of
-    a controversy on a microblogging platform (Twitter) by measuring correlations
-    in broad semantic categories. Over one million tweets were gathered daily from
-    November 2015 to June 2016 using Tweepy and the Twitter API, over 280,000 of
-    which were not retweets and thus contained unique data. Using a Python
-    implementation of Roget's hierarchy of semantic categories, these tweets were
-    collected in bins of one thousand and analyzed using a "bag of categories"
-    model, or a categorized bag of words. The linear correlation of each category with the
-    "WOMAN" category was measured and compared with a control group. The categories
-    concomitant with "WOMAN" in the test corpus include some noise, but over all
-    present a meaningful description of the conversation that adheres to its known
-    qualities. This result suggests that a more developed version of this
-    methodology could be used to detect conversational trends on social media
-    platforms more easily and with less human labor than other similar methods.
+    
 keywords: GamerGate, twitter, semantic analysis, social media, roget
 authorfootnote: |
     Phillip R. Polefrone is a PhD Candidate at Columbia's
@@ -34,29 +21,46 @@ image:
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 --- 
 
+Abstract
+=========
+
+> This paper develops a methodology for describing the contents of
+a controversy on a microblogging platform (Twitter) by measuring correlations
+in broad semantic categories. Over one million tweets were gathered daily from
+November 2015 to June 2016 using Tweepy and the Twitter API, over 280,000 of
+which were not retweets and thus contained unique data. Using a Python
+implementation of Roget's hierarchy of semantic categories, these tweets were
+collected in bins of one thousand and analyzed using a "bag of categories"
+model, or a categorized bag of words. The linear correlation of each category
+with the "WOMAN" category was measured and compared with a control group. The
+categories concomitant with "WOMAN" in the test corpus include some noise, but
+over all present a meaningful description of the conversation that adheres to
+its known qualities. This result suggests that a more developed version of this
+methodology could be used to detect conversational trends on social media
+platforms more easily and with less human labor than other similar methods.
+
 Introduction
 ===============
 
 At present, the common methodologies used to perform semantic analysis of
 social media content present many limitations. Much of the existing work on the
-topic of online harrassment uses network analysis [@baio_72_2014] or sentiment
-analysis [@wofford_is_2014], neither of which takes the specific semantic
-meaning of the posts themselves into account. Although the possibilities
-afforded by network analysis are exciting, it derives conclusions primarily
-from who is connected to whom, not the contents of any message sent. Sentiment
-analysis abstracts word meanings into a numeric value of positive or negative
-sentiment from a dictionary of human-supplied sentiment ratings. While widely
-utilized, reducing semantic content to a single vector limits the
-meaningfulness and scope of the conclusions that can be drawn from it. By far
-the most promising of the common methods is the application of machine learning
-and statistical modeling techniques [@ostrowski_using_2015;
-@burnap_cyber_2015], but the requirements of these methods are at odds with the
-nature of many social media platforms. The need for large samples is
-inconsistent with the medium's usual brevity, while the need for human-generated
-training corpora makes keeping up with rapidly evolving conversations
-impractical. There is, then, a disconnect between methods that are flexible
-enough to keep up with the medium and those that are robust enough to provide
-meaningful conclusions.
+topic of online harrassment uses network analysis (Baio 2014) or sentiment
+analysis (Wofford 2014), neither of which takes the specific semantic meaning
+of the posts themselves into account. Although the possibilities afforded by
+network analysis are exciting, it derives conclusions primarily from who is
+connected to whom, not the contents of any message sent. Sentiment analysis
+abstracts word meanings into a numeric value of positive or negative sentiment
+from a dictionary of human-supplied sentiment ratings. While widely utilized,
+reducing semantic content to a single vector limits the meaningfulness and
+scope of the conclusions that can be drawn from it. By far the most promising
+of the common methods is the application of machine learning and statistical
+modeling techniques (Ostrowski 2015, Burnap 2015), but the requirements of
+these methods are at odds with the nature of many social media platforms. The
+need for large samples is inconsistent with the medium's usual brevity, while
+the need for human-generated training corpora makes keeping up with rapidly
+evolving conversations impractical. There is, then, a disconnect between
+methods that are flexible enough to keep up with the medium and those that are
+robust enough to provide meaningful conclusions.
 
 This presents a potentially existential problem for social media platforms and
 their users. Platforms such as Twitter intends to give all users an equal
@@ -73,16 +77,16 @@ The purpose of this paper is to outline and begin developing a method that uses
 broad semantic categories, derived from a hierarchy introduced in Roget's
 thesaurus, to detect the semantic content of social media trends. I will
 evaluate this method based on its ability to describe the content of the
-Twitter conversation marked by the \#GamerGate hashtag, which has notoriously
-led to harrassment and silencing of marginalized groups in the videogaming
-community. I will analyze the raw counts of these categories using a "bag of
-categories" model in which a bag of words derived from a bin of one thousand
-tweets is replaced with the categories that describe each word. After
+Twitter conversation marked by the &#35;GamerGate hashtag, which has
+notoriously led to harrassment and silencing of marginalized groups in the
+videogaming community. I will analyze the raw counts of these categories using
+a "bag of categories" model in which a bag of words derived from a bin of one
+thousand tweets is replaced with the categories that describe each word. After
 normalizing these counts according to the total number of words in each bin,
 I will calculate the linear correlation of each word category with the "WOMAN"
 category. Finally, I will evaluate the resulting correlations by comparing them
 with a control group of 1.6 million tweets gathered by Stanford's Sentiment140
-group [-@sentiment140_sentiment140_2009].
+group (Sentiment140 2009).
 
 I expect this approach to yield a sense of how a certain topic is being
 discussed by identifying correlative categories, or in other words, categories
@@ -97,41 +101,40 @@ harrassment and denigration that has characterized the discussion, as well as
 the recourse to "freedom of speech" rhetoric that pro-GamerGaters are known to
 use as a smokescreen. 
 
-This approach rests on several basic assumptions. The first is that \#GamerGate
-is a movement devoted to maintaining gaming culture's domination by white
-heterosexual males, and that it achieves its goals by harrassing, threatening,
-and overwhelming its opponents. This interpretation is consistent with most
-examinations of the movement beyond the pro-\#GamerGate contingent itself, but
-those within the movement frequently claim it is about "media
-ethics."[^media-ethics] Some might claim that this assumption constitutes
+This approach rests on several basic assumptions. The first is that
+&#35;GamerGate is a movement devoted to maintaining gaming culture's
+domination by white heterosexual males, and that it achieves its goals by
+harrassing, threatening, and overwhelming its opponents. This interpretation is
+consistent with most examinations of the movement beyond the pro-&#35;GamerGate
+contingent itself, but those within the movement frequently claim it is about
+"media ethics." Some might claim that this assumption constitutes
 question-begging, but as I am evaluating the method's effectiveness according
 to its ability to detect this trend rather than using the method to prove the
 existence of the trend, it should not present an issue. My second assumption is
 that Roget's word categories correspond meaningfully to a human understanding
 of language. This assumption is supported by findings that methods built on
 a Roget framework perform at a success rate similar to that of human users
-[@jarmasz_rogets_2012; @mchale_comparison_1998; @klingenstein_civilizing_2014]. 
+(Jarmasz 2012, Mchale 1998, Klingenstein 2014). 
 
 Several methodological difficulties persist that will limit my findings. First,
 the tool I built to incorporate Roget's framework into a natural language
-processing suite is based on the 1911 edition of Roget's thesaurus
-[@roget_rogets_1991], meaning that fewer of the words will match the
-word-category dictionary than would be the case with a more recent version. The
-need for a digitized, plaintext version for automatic processing restricted me
-to editions that had gone out of copyright, however, so without additional
-resources, this problem will persist. Second, no edition of the thesaurus has
-kept up with the rapidly changing contours of language on Twitter, meaning that
-much semantically meaningful and relevant content has been excluded from the
-model. Third, the rate of corresponodence between the words in the corpus and
-those in the thesaurus could be improved by more sophisticated stemming and
-lemmatization. Finally, and perhaps most significantly, the project is hindered
-by Twitter's restrictive licensing policy, which has prevented me from
-obtaining the most relevant data from the beginning of the hashtag's lifespan.
-My data covers the second year of this lifespan, a period marked by
-self-referentiality and rehashing of previous arguments, while the ideal
-dataset would include data from the most volatile period (in the first month,
-before the bulk of the press coverage had occurred) when threats and
-harrassment were at their most extreme.
+processing suite is based on the 1911 edition of Roget's thesaurus, meaning
+that fewer of the words will match the word-category dictionary than would be
+the case with a more recent version. The need for a digitized, plaintext
+version for automatic processing restricted me to editions that had gone out of
+copyright, however, so without additional resources, this problem will persist.
+Second, no edition of the thesaurus has kept up with the rapidly changing
+contours of language on Twitter, meaning that much semantically meaningful and
+relevant content has been excluded from the model. Third, the rate of
+corresponodence between the words in the corpus and those in the thesaurus
+could be improved by more sophisticated stemming and lemmatization. Finally,
+and perhaps most significantly, the project is hindered by Twitter's
+restrictive licensing policy, which has prevented me from obtaining the most
+relevant data from the beginning of the hashtag's lifespan. My data covers the
+second year of this lifespan, a period marked by self-referentiality and
+rehashing of previous arguments, while the ideal dataset would include data
+from the most volatile period (in the first month, before the bulk of the press
+coverage had occurred) when threats and harrassment were at their most extreme.
 
 Several terms that require more explicit definition. A **category** will refer
 to a numbered section in Roget's Thesaurus (1911). All categories refer to the
@@ -141,7 +144,7 @@ the headings and subheadings above each category, and other levels of
 abstraction can be used.) A **mention** refers to a tweet that tags a user's
 screen name with the "\@" sign, which causes notifications to be sent to that
 user and the tweet to appear in the user's timeline. A **hashtag** refers to
-a word or words preceded by a "\#" and not separated by white space; it is
+a word or words preceded by a "&#35;" and not separated by white space; it is
 a common convention on Twitter for linking tweets to an ongoing conversation.
 A **supertweet** is a term coined by [grant_online_2011] to describe the
 process of aggregating multiple tweets into bins for modeling and analysis.
@@ -159,60 +162,59 @@ and semantic analysis of text using Roget's or other word categories.
 Studies of Online Harrassment
 ----------------------------
 
-Andy Baio's "72 Hours of \#GamerGate" [-@baio_72_2014] collects and analyzes
-the statistics of three days' worth of tweets using the "\#GamerGate" hashtag
-and the associated users. He finds that ~69% of the tweets are retweets, which
-is reflected in my dataset. He also found that many of the accounts responsible
+Andy Baio's "72 Hours of &#35;GamerGate" (2014) collects and analyzes the
+statistics of three days' &  worth of tweets using the "&#35;GamerGate" hashtag and
+the associated users. He finds that ~69% of the tweets are retweets, which is
+reflected in my dataset. He also found that many of the accounts responsible
 have a very low "age," pointing out that "[r]oughly 25% of all Gamergate
 activity is coming from accounts created in the last two months [as of October
 2014]" while the average account age for a general sample has a more even
-distribution [@baio_72_2014]. Significantly, the \#GamerGate hashtag is used ten
-times more frequently by pro-Gamergate users than anti-Gamergate users, meaning
-that findings using his hashtag disproportionately describe the pro-Gamergate
-side of the debate.
+distribution (Baio 2014). Significantly, the \&#35;GamerGate hashtag is used
+ten times more frequently by pro-Gamergate users than anti-Gamergate users,
+meaning that findings using his hashtag disproportionately describe the
+pro-Gamergate side of the debate.
 
 Taylor Wofford and Newsweek's "Is Gamergate about Media Ethics or Harassing
-Women? Harrassment, the Data Shows" [-@wofford_is_2014] uses sentiment analysis
-performed by the company BrandWatch to analyze a corpus of tweets representing
-the hashtag from September 1, 2014 to October 23, 2014. They found that
-a female game developer (Zoe Quinn) was mentioned in fourteen times as many
-tweets as a male game journalist (Nathan Grayson) despite both facing the same
-accusation. The same trend was found when comparing male and female journalists
-(Stephen Totilo and Leigh Alexander) writing in similar contexts. Although
-tweets directed at Grayson and Totilo were classified as more negative than
-those directed at Quinn, Alexander, and others, a greater number of negative
-tweets were found to be directed at the female users studied. The quantity of
-negative sentiment, then, taking into account the relative volume of tweets,
-was found to be greater in the tweets received by the female users studied.
+Women? Harrassment, the Data Shows" (2014) uses sentiment analysis performed by
+the company BrandWatch to analyze a corpus of tweets representing the hashtag
+from September 1, 2014 to October 23, 2014. They found that a female game
+developer (Zoe Quinn) was mentioned in fourteen times as many tweets as a male
+game journalist (Nathan Grayson) despite both facing the same accusation. The
+same trend was found when comparing male and female journalists (Stephen Totilo
+and Leigh Alexander) writing in similar contexts. Although tweets directed at
+Grayson and Totilo were classified as more negative than those directed at
+Quinn, Alexander, and others, a greater number of negative tweets were found to
+be directed at the female users studied. The quantity of negative sentiment,
+then, taking into account the relative volume of tweets, was found to be
+greater in the tweets received by the female users studied.
 
 Pete Burnap and Matthew L. Williams analyze the proliferation of hate speech
 following triggering events in "Cyber Hate Speech on Twitter: An Application of
 Machine Classification and Statistical Modeling for Policy and Decision Making"
-[@burnap_cyber_2015]. The authors demonstrate the applicability of machine
-learning to social media contexts in which hate speech is present, using
-syntactical pattern recognition and a human-tagged training corpus. 
+(Burnap and Williams 2015). The authors demonstrate the applicability of
+machine learning to social media contexts in which hate speech is present,
+using syntactical pattern recognition and a human-tagged training corpus. 
 
 Previous Applications of Roget's Categories for Semantic Analysis
 -----------------------------------------------------------------
 
 I was introduced to Roget's category hierarchy as a methodology at a talk by
-Simon DeDeo on [@klingenstein_civilizing_2014], which uses these categories and
+Simon DeDeo on (see Klingenstein et al. 2014), which uses these categories and
 latent Dirichlet allocation to map the "civilizing" trend in verdicts from
 London's Old Bailey legal archive. This study uses Roget's categories to
 "coarse grain" the language of trial transcripts, studying the shifting logic
 according to which crimes are classified as violent or non-violent. Latent
 Dirichlet allocation has been an effective method of topic modeling in other
-semantic studies of social media content as well, e.g. [@grant_online_2011].
+semantic studies of social media content as well, e.g. (Grant et al. 2011).
 I adopted their method of coarse-graining as well as adapting the method into
 an open-source tool for this study.
 
-Jarmasz and Spakowicz [-@jarmasz_rogets_2012] and McHale
-[-@mchale_comparison_1998] have both demonstrated Roget-based methods' ability
-to detect word similarity comparable to human users. The latter also finds that
-the method compares favorably with WordNet, a similar tool. Stan Spakowicz has
-done extensive additional studies of using Roget's thesaurus as a natural
-language processing tool, including an exploration of automatic updating
-[@kennedy_evaluation_2014].
+Jarmasz and Spakowicz (2012) and McHale (1998) have both demonstrated
+Roget-based methods' ability to detect word similarity comparable to human
+users. The latter also finds that the method compares favorably with WordNet,
+a similar tool. Stan Spakowicz has done extensive additional studies of using
+Roget's thesaurus as a natural language processing tool, including an
+exploration of automatic updating (Kennedy and Spakowicz 2014).
 
 
 Methodology
@@ -229,17 +231,16 @@ Gathering test and control data
 
 I collected a live stream of tweets to create a corpus of test data by
 scheduling a daily automatic query of Twitter's API. Using Tweepy
-[-@tweepy_tweepy_2009], a Twitter API wrapper for Python, I gathered as many
-tweets as possible that use the "\#GamerGate" tag between November 18, 2015 and
-June 30, 2016, a total of 1,049,890 tweets. Scrubbed of retweets, the total was
-281,449 tweets. To clean the data, I eliminated all tokens with
+(Tweepy 2009), a Twitter API wrapper for Python, I gathered as many
+tweets as possible that use the "&#35;GamerGate" tag between November 18, 2015
+and June 30, 2016, a total of 1,049,890 tweets. Scrubbed of retweets, the total
+was 281,449 tweets. To clean the data, I eliminated all tokens with
 non-alphanumeric characters, including mentions and hashtags. 
 
 My control data is taken from Sentiment140's corpus, a Stanford University
 project that facilitates brand- and trend-based sentiment analysis
-[@sentiment140_sentiment140_2009]. Using a range of queries, they gathered 1.6
-million tweets, which I split into bins of 100,000 for comparison with the test
-data.
+(Sentiment140 2009). Using a range of queries, they gathered 1.6 million
+tweets, which I split into bins of 100,000 for comparison with the test data.
 
 Classifying words by Roget's categories
 --------------------------------
@@ -320,8 +321,8 @@ context, seem to imply a reduction of a person to appearance or physicality,
 deemphasis of intellect, and implications of deception, dishonesty, or
 manipulation. Categories include:
 
-- MATERIALITY, OSTENTATION, HORIZONTALITY/DECEIVER, ORNAMENT, DIMNESS,
-DECEIVER, PRODUCTIVENESS/PRODUCTION (birth, procreate, etc.), INGRATITUDE,
+- MATERIALITY, OSTENTATION, HORIZONTALITYgDECEIVER, ORNAMENT, DIMNESS,
+DECEIVER, PRODUCTIVENESSgPRODUCTION (birth, procreate, etc.), INGRATITUDE,
 JEWELRY, APPEARANCE, JEWELRY
 
 Sexual Language
@@ -341,7 +342,7 @@ uniformly positive, so much so that there may be cause to look for experimental
 error. The top four categories, 'FRIENDSHIP,' 'FAVORITE,' 'LOVE,'
 'BENEVOLENCE,' tell the tale of the distribution, and none of the categories at
 the top of the test distribution appear high up in the control group's list. It
-appears that the category correlations exposed in the \#GamerGate tweets are
+appears that the category correlations exposed in the \&#35;GamerGate tweets are
 unique to that dataset.
 
 Conclusions
@@ -389,18 +390,64 @@ modern public forum online without fear of threats or harrassment. In a forum
 as huge as a platform like Twitter, some degree of automation is required to
 bring content to the attention of human arbiters. 
 
-End Notes
-========
 
-[^media-ethics]: This claim is undercut by one of their key pieces of evidence.
-The movement began with a campaign against Zoe Quinn, a game developer best
-known as the creator of *Depression Quest*. Future participants in the movement
-began harrassing Quinn, alleging that she exchanged sex for favorable reviews
-for her games. It appears, however, that these claims began with a post by
-a gilted ex-boyfriend, Eron Gjoni, which led to a cascade of misogynistic
-comments and threats that have characterized the discourse since
-[@parkin_zoe_2014].
+Bibliography 
+=========== 
 
-Bibliography
-===========
+Baio, Andy (2014). 72 Hours of #Gamergate. Medium. Online:
+https://medium.com/message/72-hours- of-gamergate-e00513f7cf5d#.b77envpa3;
+accessed 3 August 2016.
+
+Burnap, Pete & Williams, Matthew L. (2015). Cyber Hate Speech on Twitter: An
+Application of Machine Classification and Statistical Modeling for Policy and
+Decision Making. Policy & Internet 7(2):223–42. Online:
+http://onlinelibrary.wiley.com.ezproxy.cul.columbia.edu/doi/10.1002/poi3.85/abstract;
+accessed 11 August 2016.
+
+Grant, Christian; George, Clint P.; Jenneisch, Chris; & Wilson, Joseph N.
+(2011). Online Topic Modeling for Real-Time Twitter Search. In, The Twentieth
+Text REtrieval Conference (TREC 2011) Proceedings. Gaithersburg, Maryland:
+NIST.
+
+Jarmasz, Mario & Szpakowicz, Stan (2012). Roget’s Thesaurus and Semantic
+Similarity. arXiv:1204.0245 [cs]. Online: http://arxiv.org/abs/1204.0245;
+accessed 11 August 2016.
+
+Kennedy, Alistair & Szpakowicz, Stan (2014). Evaluation of automatic updates of
+Roget’s Thesaurus. Journal of Language Modelling 2(1):1. Online:
+http://jlm.ipipan.waw.pl/index.php/JLM/article/view/78; accessed 12 August
+2016.
+
+Klingenstein, Sara; Hitchcock, Tim; & DeDeo, Simon (2014). The civilizing
+process in London’s Old Bailey. Proceedings of the National Academy of Sciences
+111(26):9419–24. Online: http://www.pnas.org/content/111/26/9419; accessed 11
+August 2016.
+
+McHale, Michael (1998). A Comparison of WordNet and Roget’s Taxonomy for
+Measuring Semantic Similarity. arXiv:cmp-lg/9809003. Online:
+http://arxiv.org/abs/cmp-lg/9809003; accessed 11 August 2016.
+
+Ostrowski, D. A. (2015). Using latent dirichlet allocation for topic modelling
+in twitter. In, 2015 IEEE International Conference on Semantic Computing
+(ICSC), 493–97.
+
+Parkin, Simon (2014). Zoe Quinn’s Depression Quest. The New Yorker Online.
+Online: http://www.newyorker.com/tech/elements/zoe-quinns-depression-quest;
+accessed 11 August 2016.
+
+Roget, Peter Mark (1991). Roget’s Thesaurus. Online:
+https://www.gutenberg.org/ebooks/22; accessed 12 August 2016.
+
+Sentiment140 (2009). Sentiment140 - A Twitter Sentiment Analysis Tool.
+Sentiment140. Online: http://help.sentiment140.com/home; accessed 6 August
+2016.
+
+Tweepy (2009). Tweepy. Tweepy. Online: http://www.tweepy.org/; accessed 12
+August 2016.
+
+Wofford, Taylor (2014). Is GamerGate About Media Ethics or Harassing Women?
+Harassment, the Data Shows. Newsweek. Online:
+http://www.newsweek.com/gamergate-about-media-
+ethics-or-harassing-women-harassment-data-show-279736; accessed 3 August 2016.k
+
 
