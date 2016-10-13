@@ -1,5 +1,5 @@
 ---
-title: Semantic Analysis of One Million \#GamerGate Tweets Using Semantic Category Correlations
+title: Semantic Analysis of One Million #GamerGate Tweets Using Semantic Category Correlations
 author: 
 - name: Phillip R. Polefrone
   affiliation: Columbia University, Department of English and Comparative Literature
