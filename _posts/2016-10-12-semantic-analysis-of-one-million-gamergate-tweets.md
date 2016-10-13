@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Semantic Analysis of One Million #GamerGate Tweets Using Semantic Category Correlations
 author: 
 - name: Phillip R. Polefrone
@@ -28,6 +29,9 @@ authorfootnote: |
 bibliography: research_report.bib
 csl: language-in-society.csl
 geometry: margin=1in
+image:
+  feature: texture-feature-06.jpg
+  credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 --- 
 
 Introduction
