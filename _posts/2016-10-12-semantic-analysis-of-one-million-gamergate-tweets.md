@@ -21,6 +21,11 @@ image:
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 --- 
 
+Full Paper (with Results)
+-------------------------
+
+- [PDF](https://prpole.github.io/files/Polefrone_2016_semantic_analysis_gamergate.pdf)
+
 Abstract
 =========
 
