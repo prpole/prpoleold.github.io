@@ -3,7 +3,11 @@ h1 {
 }
 
 h2 {
-    margin-left: -5rem;
+    margin-left: -4em;
+    margin-bottom: -1.1em;
+    max-width: 4em;
+    color: #808080;
+    font-size: 1.15em;
 }
 
 blockquote {
