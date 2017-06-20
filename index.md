@@ -1,45 +1,41 @@
 ---
 layout: home
-description: "Phillip R. Polefrone's professional blog."
-tags: [Jekyll, theme, responsive, blog, template]
+description: "Phillip R. Polefrone's Professional Blog."
 image:
   feature: texture-feature-06.jpg
   credit: from Max Ernst, illustration for 'Une Semaine de Bonté'
 ---
 
 
-I'm Phil Polefrone, a PhD Candidate in Columbia University's Department of
-English and Comparative Literature. I work in three broad fields: 20th-century
-American fiction, the environmental humanities, and the digital humanities. 
+Phillip R. Polefrone is a PhD Candidate in Columbia University's Department of
+English and Comparative Literature. His work focuses on twentieth-century
+American fiction from an environmental humanities perspective, with particular
+focuses on American Literary Naturalism and speculative fiction. His
+dissertation, "Literary Naturalism and the Anthropocene," considers the
+philosophical, historical, and scientific resonances between American Literary
+Naturalism and the deep history of the Anthropocene as a concept. Covering
+authors such as Frank Norris, Charlotte Perkins Gilman, and Jack London, this
+dissertation discusses the central problems of ecocriticism in the Anthropocene
+as they appear in naturalist fiction: among them the "species" concept as it
+relates to human history, the place of human guidance in natural systems, and
+the role of capitalism (especially finance) in determining the scale and
+character of humanity's influence on the planet. Using these issues as the
+basis for a reading of naturalist novels expands the range of texts that are
+read as "Anthropocene fiction," but it also presents a new reading of an
+important moment in American literary history, recasting many of the well known
+features of the naturalist genre in terms set by an urgent contemporary
+discourse. 
 
-My research is currently somewhat bifurcated. On one hand, I read for what I
-call the ecotopian imagination in American literature: instances of speculative
-social ecologies in fiction, when narration of communal and physical structures
-can also be considered a form of environmentalism. My work on this topic is
-heavily informed by Marxist-inflected environmentalisms (think Paul Burkett,
-John Bellamy Foster, and Jason W. Moore) and environmental justice. I write
-about works like Charlotte Perkins Gilman's *Herland* and Willa Cather's *The
-Professor's House* and *Death Comes for the Archbishop* whose descriptions of
-physical space have major ramifications on the social commentary they provide.
-This often leads me into work on speculative and utopian fiction, from Edward
-Bellamy's *Looking Backward* to Ursula K. Le Guin's *The Dispossessed* to Kim
-Stanley Robinson's *Mars Trilogy*. The articles I am currently developing
-discuss the ecosocialist economy of *Herland* as it is determined by the image
-of the garden and housekeeping and queer construction of new social structures
-in Willa Cather's *The Professor's House*.
+In addition to this more traditional written work, Phillip's work on the
+digital humanities uses natural language processing in Python to develop and
+employ distant reading methods. Most recently, he has been focused on improving
+automated location extraction and geolocation, which makes it possible to bring
+data extracted from literature into closer contact with environmental datasets
+revolving around emissions, climate change, and environmental justice.
 
-In addition to this more traditional written work, in my work on the digital
-humanities I use natural language processing in Python to use and develop
-distant reading techniques in American fiction before 1923 (and beyond, where
-copyright restrictions allow). My most recent work has been focused on
-improving automated location extraction and geolocation, which will allow me to
-bring data extracted from literature into closer contact with environmental
-datasets revolving around emissions, climate change, and environmental health.
-My digital projects to date have been more focused on natural language
-processing of literature in general, but this foundation is now allowing me to
-focus on space and setting more exclusively.
+This site hosts my published writing, documents related to academic and
+educational talks, DH projects. See below for updates and information about
+works in progress. My CV can be found on the "CV" tag above, and projects are
+hosted on the "Projects" tab and represented among the posts.
 
-This site hosts my DH projects and other professional resources, such as my CV
-and list of publications. See below for updates and information about works in
-progress. My CV can be found on the "CV" tag above, and projects are hosted on
-the "Projects" tab and represented among the posts.
+
