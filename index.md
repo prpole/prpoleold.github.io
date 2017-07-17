@@ -26,7 +26,7 @@ important moment in American literary history, recasting many of the well known
 features of the naturalist genre in terms set by an urgent contemporary
 discourse. 
 
-In addition to this more traditional written work, Phillip's work on the
+In addition to his work in the environmental humanities, Phillip's work in the
 digital humanities uses natural language processing in Python to develop and
 employ distant reading methods. Most recently, he has been focused on improving
 automated location extraction and geolocation, which makes it possible to bring
