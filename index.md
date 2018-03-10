@@ -6,6 +6,7 @@ image:
   credit: from cover image to Robert A. Heinlein's "Farmer in the Sky"
 ---
 
+# My Work
 
 Phillip R. Polefrone is a PhD Candidate in Columbia University's Department of
 English and Comparative Literature. His work focuses on twentieth-century
