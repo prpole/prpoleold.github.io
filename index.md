@@ -3,7 +3,8 @@ layout: home
 description: "Phillip R. Polefrone's Professional Blog."
 image:
   feature: texture-feature-06.jpg
-  credit: from cover image to Robert A. Heinlein's "Farmer in the Sky"
+  credit: from cover image to Robert A. Heinlein's "Farmer in the Sky" (Bob
+  Eggleton)
 ---
 
 # My Work
