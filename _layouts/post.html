@@ -34,7 +34,7 @@
 {% endif %}
 
 <div id="main" role="main">
-  <div class="postwrap">
+  <article>
     <div class="headline-wrap">
       {% if page.link %}
         <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
@@ -55,7 +55,7 @@
   {% if site.disqus_shortname and page.comments %}
     <section id="disqus_thread"></section><!-- /#disqus_thread -->
   {% endif %}
-  </div>
+  </article>
 </div><!-- /#main -->
 
 <div class="footer-wrap">
