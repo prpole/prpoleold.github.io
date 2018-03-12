@@ -607,23 +607,37 @@ body
       -webkit-hyphens: auto
       -moz-hyphens: auto
       hyphens: auto
-      text-align: justify
+      @media(min-width: 700px)
+        text-align: justify
     h1
       padding-bottom: 20px
       font-weight: normal
-      margin-left: -50px
+      @media(min-width: 1000px)
+        margin-left: -50px
     h2
-      float: left
       font-size: 18px
-      margin-left: -200px
       padding-top: 0
       max-width: 125px
       font-weight: lighter
+      @media(min-width: 1300px)
+        margin-left: -200px
+        float: left
     blockquote
       margin-left: 50px
     .cv-download
-      margin-left: -48px
-      margin-bottom: -175px
+      @media(max-width:394px)
+        margin-bottom: -200px
+      @media(min-width: 394px)
+        margin-bottom: -170px
+      @media(min-width: 700px)
+        margin-left: 0px
+      @media(min-width: 1000px)
+        margin-left: -48px
+    @media(max-width: 700px)
+      margin-top: -300px
+  .article-image
+    @media(max-width: 700px)
+      display: none
 
 .share
   text-align: right
