@@ -46,7 +46,7 @@ body
   width: $rs*3
   height: $rs*3
   overflow: hidden
-  z-index: 99
+  z-index: 0
   .logo
     @media(max-width: 700px)
       display: none
@@ -179,6 +179,8 @@ body
         &:hover
           text-decoration: underline
     .article-thumb
+      @media(max-width: 1000px)
+        display: none
       float: left
       height: 200px
       margin-left: -150px
