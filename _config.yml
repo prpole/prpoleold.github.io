@@ -1,78 +1,63 @@
-title:            'Phillip R. Polefrone'
-description:      Phillip R. Polefrone's personal site.
-# Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              https://prpole.github.io
-disqus_shortname:
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
 
-# Owner/author information
-owner:
-  name:           Phillip R. Polefrone
-  avatar:         bio-photo-2.jpg
-  bio:            "PhD candidate at Columbia University's Department of English and Comparative Literature."
-  email:          pp2454@columbia.edu
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: polefrone
-  facebook:
-  github: prpole
-  stackoverflow:
-  linkedin:
-  instagram:
-  lastfm:
-  tumblr:
-  pinterest:
-  foursquare:
-  steam:
-  dribbble:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+# Site settings
+title: "Phillip R. Polefrone"
+description: > # this means to ignore newlines until "email:"
+   
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-56282998-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+email: pp2454@columbia.edu
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+float_logo: true # true, false (default)
 
-# Links to include in top navigation
-# For external links add external: true
-links:
-  - title: About
-    url: /about/
-  - title: Projects
-    url: /projects/
-  - title: Posts
-    url: /posts/
-  #- title: Theme Setup
-  #  url: /theme-setup/
-  - title: CV
-    url: /cv/
-  - title: Talks
-    url: /talks/
-  #- title: Made Mistakes
-  #  url: http://mademistakes.com
-  #  external: true
+# blog cover
+cover: "/assets/images/headimg.jpg"
+imageattr: "image by Bob Eggleton, from the cover of Robert A. Heinlein's 'Farmer in the Sky' (Baen, 2008)"
+name: 'Phillip R. Polefrone'
+author: 'Phillip R. Polefrone'
+author_image: "/assets/images/author.jpg"
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-highlighter: rouge
-markdown:    kramdown
+paginate:	5
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+url: "http://prpole.github.io" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@polefrone'
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+#google_analytics: UA-XXXXX-X
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/polefrone
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+#  - icon:	github
+#    url:	https://github.com/prpole
+#    desc:	Fork me on github
+#    share_url:
+#    share_title:
+#    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
