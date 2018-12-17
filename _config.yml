@@ -14,7 +14,7 @@ logo: "/assets/images/df_logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/headimg.jpg"
+cover: ""
 imageattr: "image by Bob Eggleton, from the cover of Robert A. Heinlein's 'Farmer in the Sky' (Baen, 2008)"
 name: 'Phillip R. Polefrone'
 author: 'Phillip R. Polefrone'
