@@ -4,8 +4,8 @@ title:  "Ecology without Us"
 date:   2018-12-14
 categories: article
 tags: featured
-image: /assets/article_images/2018-12-14-ecology-without-us/earthabides_head.jpeg
-thumbnail: /assets/article_images/2018-12-14-ecology-without-us/earthabides_thumb.jpeg
+image: /assets/article_images/2018-12-14-ecology-without-us/earthabides_head.jpg
+thumbnail: /assets/article_images/2018-12-14-ecology-without-us/earthabides_thumb.jpg
 imageattr: ""
 acknowledgement:
   name: Extrapolation 59, no. 3
