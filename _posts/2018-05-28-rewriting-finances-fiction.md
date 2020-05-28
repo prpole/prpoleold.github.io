@@ -4,8 +4,8 @@ title:  "Rewriting Finance's Fiction"
 date:   2018-05-28
 categories: article
 tags: featured
-image: /assets/article_images/2018-12-14-ecology-without-us/earthabides_head.jpg
-thumbnail: /assets/article_images/2018-12-14-ecology-without-us/earthabides_thumb.jpg
+image: /assets/article_images/2018-05-28-rewriting-finances-fiction/article.jpeg
+thumbnail: /assets/article_images/2018-05-28-rewriting-finances-fiction/article.jpeg
 imageattr: ""
 acknowledgement:
   name: Politics Slash Letters Quarterly
