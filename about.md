@@ -5,8 +5,9 @@ permalink: /about/
 image: /assets/images/aboutimage.jpg
 ---
 
-Phillip R. Polefrone is a PhD Candidate in Columbia University's Department of
-English and Comparative Literature. His work focuses on twentieth-century
+Phillip R. Polefrone is a Lecturer in Columbia University's Core Curriculum, 
+where he teaches Contemporary Civilization in the West. His PhD is from Columbia's
+Department of English and Comparative Literature, and his research focuses on twentieth-century
 American fiction from an environmental humanities perspective, with particular
 focuses on American Literary Naturalism and speculative fiction. His
 dissertation, "Literary Naturalism and the Anthropocene," considers the
