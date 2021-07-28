@@ -1,11 +1,11 @@
 --- 
 layout: post
-title:  "The Stock Ticker in the Garden. *The Octopus*, American Literary Naturalism, and Capitalocene Aesthetics""
+title:  "The Stock Ticker in the Garden. *The Octopus*, American Literary Naturalism, and Capitalocene Aesthetics"
 date:   2020-09-01
 categories: article
 tags: featured
-image: /assets/article_images/2018-12-14-ecology-without-us/earthabides_head.jpg
-thumbnail: /assets/article_images/2018-12-14-ecology-without-us/earthabides_thumb.jpg
+image: /assets/article_images/2020-09-01-stockticker/norris-image.jpeg
+thumbnail: /assets/article_images/2020-09-01-stockticker/norris-thumb.jpeg
 imageattr: ""
 acknowledgement:
   name: American Literature, 92, no. 3
